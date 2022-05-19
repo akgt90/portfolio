@@ -1,0 +1,66 @@
+body{
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+}
+#mainNavbar .navbar-brand{
+    color:#C9E3E2;
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+.content {
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+}
+h4{
+    color:#C9E3E2;
+    font-weight: 100; 
+}
+.class{
+    color:#C9E3E2;
+}
+img{
+    height: 100px;
+    /* width: 50%; */
+
+}
+p{
+    /* font-size: 5rem; */
+    color: #C9E3E2;
+}
+h2{
+    color: #C9E3E2;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+#mainNavbar .nav-link:hover {
+    color: red;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+#headingGroup h4 {
+    font-weight: 100;
+    font-size: 2rem;
+}
+#ak{
+    /* font-family: 'Permanent Marker', cursive; */
+    /* height: 150%; */
+    color: #C9E3E2;
+}
+
+.navbar.scrolled {
+    background:black;
+    transition: background 500ms;
+}
+@media (max-width: 1200px) {
+    #headingGroup h4 {
+        font-weight: 100;
+        font-size: 1.8rem;
+    }
+    .blurb h2 {
+        font-size: 1rem;
+    }
+}
